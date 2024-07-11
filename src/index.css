@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Vazir" !important;
+  direction: rtl !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("./fonts/Vazir.eot");
+  src: url("./fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("./fonts/Vazir.woff2") format("woff2"),
+      url("./fonts/Vazir.woff") format("woff"),
+      url("./fonts/Vazir.ttf") format("truetype");
+}
+p {
+  line-height: 2em;
+}
+
+* {
+  text-decoration: none !important;
+  box-sizing: border-box;
+  text-align: justify;
+}
+.contact-bg{
+  background-image: url(./images/vecteezy_abstract-white-line-background-wall-vector-illustration_7696724.jpg);
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
+.nav-link:hover{
+  color: #ffa50f !important;
+}
+.color {
+  color: #ffa50f;
+}
+.font-size {
+  font-size: .9em;
+}
+.bg-str {
+ background-color: #f4f4f4f5;
+  height: auto;
+}
+.bg{
+  background-color: #f4f4f4f5;
+}
+.redius-text{
+  /* background-color: #77c6ff; */
+  background-color: #ebeaeaf5;
+  border-radius: 50px 12px;
+}
+.bigest {
+  text-align: center !important;
+  /* line-height: 1.8em; */
+  color: #013449;
+}
+.a-link {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #fff;
+  color: #f1a919;
+  padding: 10px 20px;
+  border: 1px solid #f1a919;
+  border-radius: 50px;
+  transition: all .5s;
+}
+.a-link:hover {
+  color: #fff;
+  background-color: #f1a919;
+}
+.footer{
+  background-color: #cacacaf5;
+}
+.a-footer{
+  color: #000;
+  font-size: 1.2em;
+}
+.a-footer:hover{
+  color: #000;
+}
+.hover-photo{
+  transition: all .75s;
+}
+.hover-photo:hover{
+  transform: scale(1.1);
+  transition: all .75s;
+}
+.text-banner{
+  color: #ffa50f;
+}
